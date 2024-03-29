@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "IOT-Hub-Node",
-  base: ".",
+  base: "/IoT-Hub-Node-Document/",
   description: "IOT-Hub-Node A VitePress Site",
   head: [['link',{rel:'icon',href:'/logo.ico'}]], 
   themeConfig: {
