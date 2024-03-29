@@ -5,7 +5,7 @@ export default defineConfig({
   title: "IOT-Hub-Node",
   base: "/IoT-Hub-Node-Document/",
   description: "IOT-Hub-Node A VitePress Site",
-  head: [['link',{rel:'icon',href:'/logo.ico'}]], 
+  head: [['link',{rel:'icon',href:'/IoT-Hub-Node-Document/logo.ico'}]], 
   themeConfig: {
     logo: "/logo.png",
     // https://vitepress.dev/reference/default-theme-config
