@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 前往控制台
-      link: https://www.duruofu.top
+      link: https://www.duruofu.xyz
     - theme: alt
       text: 浏览文档
       link: /api-examples
