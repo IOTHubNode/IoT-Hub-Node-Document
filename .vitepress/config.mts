@@ -12,11 +12,11 @@ export default defineConfig({
     nav: [
       { text: '概览', link: '/' },
       { text: '使用文档',         items: [
-        { text: '介绍', link: '/docs/01.Introduction/IOT-Hub-Node是什么/IOT-Hub-Node是什么' },
+        { text: '介绍', link: '/docs/01.Introduction/IOT-Hub-Node是什么/index' },
         { text: '快速上手', link: '/docs/02.tutorial/准备工作' }
       ]
       },
-      { text: '嵌入式支持', link: '/docs/03.embedded/index' },
+      { text: '嵌入式支持', link: '/docs/03.embedded/介绍/index' },
       { text: '常见问题', link: '/docs/04.question/安装部署问题' },
       { text: '加入我们', link: '/docs/05.other/加入我们' },
     ],
@@ -26,7 +26,7 @@ export default defineConfig({
         text: '产品介绍',
         items: [
           { text: 'IOT-Hub-Node是什么？', link: '/docs/01.Introduction/IOT-Hub-Node是什么/IOT-Hub-Node是什么' },
-          { text: '基本概念', link: '/docs/01.Introduction/基本概念' },
+          { text: '基本概念', link: '/docs/01.Introduction/基本概念/index' },
         ]
       },
       {
@@ -42,7 +42,7 @@ export default defineConfig({
       {
         text: '嵌入式支持',
         items: [
-          { text: 'IOT-Hub-Embedded', link: '/docs/03.embedded/index' },
+          { text: 'IOT-Hub-Embedded', link: '/docs/03.embedded/介绍/index' },
           { text: 'ESP32多模网关', link: '/docs/03.embedded/ESP32_Gateway' },
         ]
       },
@@ -67,16 +67,17 @@ export default defineConfig({
         text: '贡献指南',
         items: [
           { text: '加入我们', link: '/docs/06.other/加入我们' },
+          { text: '贡献指南', link: '/docs/06.other/贡献指南' }
         ]
       },
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/IOTHubNode/IoT-Hub-Node' }
+      { icon: 'github', link: 'https://github.com/IOTHubNode/IoT-Hub-Node-Document' }
     ],
 
     footer: {
-      copyright:"Copyright © 2024 IOT-Hub-Node",
+      copyright:"Copyright © 2024 IoT-Hub-Node-Document",
     }
 
   }
