@@ -12,13 +12,13 @@ export default defineConfig({
     nav: [
       { text: '概览', link: '/' },
       { text: '使用文档',         items: [
-          { text: '介绍', link: '/docs/Introduction/IOT-Hub-Node是什么/IOT-Hub-Node是什么' },
-          { text: '快速上手', link: '/docs/tutorial/准备工作' }
+        { text: '介绍', link: '/docs/01.Introduction/IOT-Hub-Node是什么/IOT-Hub-Node是什么' },
+        { text: '快速上手', link: '/docs/02.tutorial/准备工作' }
       ]
       },
-      { text: '嵌入式支持', link: '/docs/embedded/index' },
-      { text: '常见问题', link: '/docs/question/安装部署问题' },
-      { text: '加入我们', link: '/docs/other/加入我们' },
+      { text: '嵌入式支持', link: '/docs/03.embedded/index' },
+      { text: '常见问题', link: '/docs/04.question/安装部署问题' },
+      { text: '加入我们', link: '/docs/05.other/加入我们' },
     ],
 
     sidebar: [
