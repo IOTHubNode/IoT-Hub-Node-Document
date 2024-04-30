@@ -5,7 +5,7 @@ export default defineConfig({
   title: "IOT-Hub-Node",
   //base: "/IoT-Hub-Node-Document/",
   description: "IOT-Hub-Node A VitePress Site",
-  head: [['link',{rel:'icon',href:'/IoT-Hub-Node-Document/logo.ico'}]], 
+  head: [['link',{rel:'icon',href:'/logo.ico'}]], 
   themeConfig: {
     logo: "/logo.png",
     // https://vitepress.dev/reference/default-theme-config
@@ -25,7 +25,7 @@ export default defineConfig({
       {
         text: '产品介绍',
         items: [
-          { text: 'IOT-Hub-Node是什么？', link: '/docs/01.Introduction/IOT-Hub-Node是什么/IOT-Hub-Node是什么' },
+          { text: 'IOT-Hub-Node是什么？', link: '/docs/01.Introduction/IOT-Hub-Node是什么/index' },
           { text: '基本概念', link: '/docs/01.Introduction/基本概念/index' },
         ]
       },
