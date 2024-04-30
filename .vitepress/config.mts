@@ -18,7 +18,7 @@ export default defineConfig({
       },
       { text: '嵌入式支持', link: '/docs/03.embedded/介绍/index' },
       { text: '常见问题', link: '/docs/04.question/安装部署问题' },
-      { text: '加入我们', link: '/docs/05.other/加入我们' },
+      { text: '加入我们', link: '/docs/06.other/加入我们' },
     ],
 
     sidebar: [
