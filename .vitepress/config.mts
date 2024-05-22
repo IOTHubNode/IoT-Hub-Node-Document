@@ -13,7 +13,7 @@ export default defineConfig({
       { text: '概览', link: '/' },
       { text: '使用文档',         items: [
         { text: '介绍', link: '/docs/01.Introduction/IOT-Hub-Node是什么/index' },
-        { text: '快速上手', link: '/docs/02.tutorial/准备工作' }
+        { text: '快速上手', link: '/docs/02.tutorial/准备工作/index' }
       ]
       },
       { text: '嵌入式支持', link: '/docs/03.embedded/介绍/index' },
@@ -32,8 +32,8 @@ export default defineConfig({
       {
         text: '快速上手',
         items: [
-          { text: '准备工作', link: '/docs/02.tutorial/准备工作' },
-          { text: '安装部署', link: '/docs/02.tutorial/安装部署' },
+          { text: '准备工作', link: '/docs/02.tutorial/准备工作/index' },
+          { text: '安装部署', link: '/docs/02.tutorial/安装部署/index' },
           { text: '设备接入', link: '/docs/02.tutorial/设备接入' },
           { text: '数据上报', link: '/docs/02.tutorial/数据上报' },
           { text: '设备控制', link: '/docs/02.tutorial/设备控制' },
