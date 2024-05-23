@@ -85,7 +85,7 @@ npm config set registry https://registry.npmmirror.com
 
 进入源文件web目录，运行编译命令：
 
-```bash 
+``` bash 
 npm run build
 ```
 
@@ -127,7 +127,7 @@ MQTT桥接，这里使用监控Webhook桥接。
 ![](attachments/Pasted%20image%2020240523112838.png)
 
 
-请求方法为POST，请求地址为：`http://{{部署域名端口}}/v1/broker/mqtt/hook`
+请求方法为POST，请求地址为：`http://[[部署域名端口]]]]/v1/broker/mqtt/hook`
 
 如下图所示：
 
@@ -140,6 +140,6 @@ MQTT连接认证，这里使用`Password-Based`方式里的HTTP服务：
 
 请求放式为：`POST`
 
-URL为：`http://{{域名:端口}}/v1/broker/mqtt/auth`
+URL为：`http://[[域名:端口]]/v1/broker/mqtt/auth`
 
 ![](attachments/Pasted%20image%2020240523114424.png)
