@@ -2,12 +2,12 @@
 
 1. 运行以下命令获取 Docker 镜像：
 ``` bash
-docker pull emqx/emqx-enterprise:5.1.1
+docker pull emqx/emqx:5.6.1
 ```
 
 2. 运行以下命令启动 Docker 容器。
 ```bash
-docker run -d --name emqx-enterprise -p 1883:1883 -p 8083:8083 -p 8084:8084 -p 8883:8883 -p 18083:18083 emqx/emqx-enterprise:5.1.1
+docker run -d --name emqx -p 1883:1883 -p 8083:8083 -p 8084:8084 -p 8883:8883 -p 18083:18083 emqx/emqx:5.6.1
 ```
 
 ## 安装 MySQL
