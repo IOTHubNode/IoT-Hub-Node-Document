@@ -11,8 +11,8 @@ hero:
     alt: 背景图
   actions:
     - theme: brand
-      text: 前往控制台
-      link: https://www.duruofu.xyz
+      text: 开源项目
+      link: https://github.com/IOTHubNode/IoT-Hub-Node
     - theme: alt
       text: 浏览文档
       link: '/docs/01.Introduction/IOT-Hub-Node是什么/index'
