@@ -10,12 +10,15 @@ hero:
     src: /logo.png
     alt: 背景图
   actions:
-    - theme: brand
-      text: 开源项目
-      link: https://github.com/IOTHubNode/IoT-Hub-Node
     - theme: alt
-      text: 浏览文档
-      link: '/docs/01.Introduction/IOT-Hub-Node是什么/index'
+      text: IOT-Hub-Node
+      link: '/docs/IOT-Hub-Node/01.Introduction/IOT-Hub-Node是什么/index'
+    - theme: brand
+      text: IOT-Hub-Node-Mini
+      link: '/docs/IOT-Hub-Node-Mini/01.Introduction/index'
+    - theme: alt
+      text: IOT-Hub-Embedded
+      link: '/docs/IOT-Hub-Embedded/01.Introduction/index'    
 
 features:
   - title: 统一物模型
