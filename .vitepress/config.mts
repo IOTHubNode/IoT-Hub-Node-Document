@@ -11,11 +11,11 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '概览', link: '/' },
-      { text: 'IOT-Hub-Node', link: '/docs/IOT-Hub-Node/01.Introduction/IOT-Hub-Node是什么/index' },
+      { text: 'IOT-Hub-Node(暂时停更)', link: '/docs/IOT-Hub-Node/01.Introduction/IOT-Hub-Node是什么/index' },
       { text: 'IOT-Hub-Node-Mini', link: '/docs/IOT-Hub-Node-Mini/01.Introduction/index' },
       { text: 'IOT-Hub-Embedded', link: '/docs/IOT-Hub-Embedded/01.Introduction/index' },
-      { text: '常见问题', link: '/docs/IOT-Hub-Node/04.question/安装部署问题' },
-      { text: '加入我们', link: '/docs/IOT-Hub-Node/06.other/加入我们' },
+      { text: '常见问题', link: '/docs/IOT-Hub-Node/03.question/安装部署问题' },
+      { text: '加入我们', link: '/docs/IOT-Hub-Node/05.other/加入我们' },
     ],
 
     sidebar: {
@@ -41,34 +41,27 @@ export default defineConfig({
             ]
           },
           {
-            text: '嵌入式支持',
-            items: [
-              { text: 'IOT-Hub-Embedded', link: '/docs/IOT-Hub-Node/03.embedded/介绍/index' },
-              { text: 'ESP32多模网关', link: '/docs/IOT-Hub-Node/03.embedded/ESP32_Gateway' },
-            ]
-          },
-          {
             text: '常见问题',
             items: [
-              { text: '安装部署问题', link: '/docs/IOT-Hub-Node/04.question/安装部署问题' },
-              { text: '二次开发问题', link: '/docs/IOT-Hub-Node/04.question/二次开发问题' },
-              { text: '设备接入问题', link: '/docs/IOT-Hub-Node/04.question/设备接入问题' }
+              { text: '安装部署问题', link: '/docs/IOT-Hub-Node/03.question/安装部署问题' },
+              { text: '二次开发问题', link: '/docs/IOT-Hub-Node/03.question/二次开发问题' },
+              { text: '设备接入问题', link: '/docs/IOT-Hub-Node/03.question/设备接入问题' }
             ]
           },
           {
             text: '服务支持',
             items: [
-              { text: '产品计划', link: '/docs/IOT-Hub-Node/05.service/产品计划' },
-              { text: '更新记录', link: '/docs/IOT-Hub-Node/05.service/更新记录' },
-              { text: '通知公告', link: '/docs/IOT-Hub-Node/05.service/通知公告' },
-              { text: '反馈渠道', link: '/docs/IOT-Hub-Node/05.service/反馈渠道' }
+              { text: '产品计划', link: '/docs/IOT-Hub-Node/04.service/产品计划' },
+              { text: '更新记录', link: '/docs/IOT-Hub-Node/04.service/更新记录' },
+              { text: '通知公告', link: '/docs/IOT-Hub-Node/04.service/通知公告' },
+              { text: '反馈渠道', link: '/docs/IOT-Hub-Node/04.service/反馈渠道' }
             ]
           },
           {
             text: '贡献指南',
             items: [
-              { text: '加入我们', link: '/docs/IOT-Hub-Node/06.other/加入我们' },
-              { text: '贡献指南', link: '/docs/IOT-Hub-Node/06.other/贡献指南' }
+              { text: '加入我们', link: '/docs/IOT-Hub-Node/05.other/加入我们' },
+              { text: '贡献指南', link: '/docs/IOT-Hub-Node/05.other/贡献指南' }
             ]
           },
         ],
