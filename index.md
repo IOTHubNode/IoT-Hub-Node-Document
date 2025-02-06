@@ -15,7 +15,7 @@ hero:
       link: '/docs/IOT-Hub-Node/01.Introduction/IOT-Hub-Node是什么/index'
     - theme: brand
       text: IOT-Hub-Node-Mini
-      link: '/docs/IOT-Hub-Node-Mini/01.Introduction/index'
+      link: '/docs/IOT-Hub-Node-Mini/01.Introduction/IOT-Hub-Node-Mini是什么/index'
     - theme: alt
       text: IOT-Hub-Embedded
       link: '/docs/IOT-Hub-Embedded/01.Introduction/index'    

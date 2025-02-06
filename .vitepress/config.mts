@@ -6,6 +6,13 @@ export default defineConfig({
   //base: "/IoT-Hub-Node-Document/",
   description: "IOT-Hub-Node A VitePress Site",
   head: [['link', { rel: 'icon', href: '/logo.ico' }]],
+  lang: "zh-CN",
+  locales: {
+    "/": {
+      label: "简体中文",
+      lang: "zh-CN",
+    },
+  },
   themeConfig: {
     logo: "/logo.png",
     // https://vitepress.dev/reference/default-theme-config
@@ -67,7 +74,7 @@ export default defineConfig({
       }],
       '/docs/IOT-Hub-Node-Mini/': [{
         text: 'IOT-Hub-Node-Mini',
-        link: '/docs/IOT-Hub-Node-Mini/01.Introduction/index',
+        link: '/docs/IOT-Hub-Node-Mini/01.Introduction/IOT-Hub-Node-Mini是什么/index',
         items: [
           {
             text: '产品介绍',
@@ -117,6 +124,31 @@ export default defineConfig({
         link: '/docs/IOT-Hub-Embedded/01.Introduction/index'
       }],
     },
+
+    //404页面的配置
+    notFound: {
+      title: "页面未找到",
+      quote: "这个页面不存在",
+      linkText: "返回首页",
+    },
+
+    darkModeSwitchLabel: "切换主题",
+
+    //当前页面 On this page
+    outlineTitle: "本节目录",
+
+    // 文章翻页
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    },
+
+    // 移动端 - 返回顶部
+    returnToTopLabel: '返回顶部',
+
+    // 移动端 - menu
+    sidebarMenuLabel: '菜单',
+
 
 
     socialLinks: [
